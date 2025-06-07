@@ -25,11 +25,11 @@ class SplashViewController: UIViewController {
         label.textAlignment = .center
         return label
     }()
-        
 
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         configureView()
         navigationToTabBar()
     }
