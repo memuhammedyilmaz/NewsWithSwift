@@ -22,7 +22,7 @@ final class NewsViewModel {
 
 extension NewsViewModel {
     func fetchTopNews() {
-        newsService.fetchTopNews(country: "us", page: 1, pageSize: 10) { [weak self] result in
+        newsService.fetchTopNews(country: "us", page: 1, pageSize: 50) { [weak self] result in
             guard let self else { return }
             switch result {
             case .success(let success):

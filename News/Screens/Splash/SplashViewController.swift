@@ -64,7 +64,7 @@ private extension SplashViewController {
         )
     }
     func navigationToTabBar() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
             guard let sceneDelegate = UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate else {
                 return
             }

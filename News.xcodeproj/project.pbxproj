@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52A1415C2DE7066100AD4A78 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 52A1415B2DE7066100AD4A78 /* SnapKit */; };
+		52FC07BA2DF5EC360053F3FC /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 52FC07B92DF5EC360053F3FC /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FC07BA2DF5EC360053F3FC /* Kingfisher in Frameworks */,
 				52A1415C2DE7066100AD4A78 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +86,7 @@
 			name = News;
 			packageProductDependencies = (
 				52A1415B2DE7066100AD4A78 /* SnapKit */,
+				52FC07B92DF5EC360053F3FC /* Kingfisher */,
 			);
 			productName = News;
 			productReference = 52A141312DE703DD00AD4A78 /* News.app */;
@@ -115,6 +118,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				52A1415A2DE7066100AD4A78 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				52FC07B82DF5EC360053F3FC /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 52A141322DE703DD00AD4A78 /* Products */;
@@ -364,6 +368,14 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		52FC07B82DF5EC360053F3FC /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -371,6 +383,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 52A1415A2DE7066100AD4A78 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		52FC07B92DF5EC360053F3FC /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52FC07B82DF5EC360053F3FC /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
